@@ -57,7 +57,7 @@ export class ChatComponent implements OnInit {
     })
   }
   //send button function calls
-  onAddMessage(groupId:number) {
+  onAddMessage() {
     if (this.messageInputRef.nativeElement.value != "") {debugger
       
       this.chatService.addMessage({content:this.messageInputRef.nativeElement.value,group_id:this.groupId}).subscribe(data=>{
