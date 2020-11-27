@@ -1,0 +1,54 @@
+// For Registration page
+
+#regestration {
+  background-image: url("../../assets/img/gallery/light-bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  .register-img {
+    background: #f0f0f0;
+    padding: 0;
+  }
+
+  .login-btn {
+    .btn.btn-outline-primary {
+      &:hover {
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .recover-pass {
+    button.btn.btn-primary {
+      color: #fff !important;
+    }
+  }
+}
+
+
+  .full-width {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .error-message {
+    font-size: 12px;
+  }
+
+  .double-line-hint {
+    .mat-input-hint-wrapper {
+      flex-wrap: wrap;
+
+      .hint-line {
+        flex: 0 0 100%;
+      }
+    }
+  }
+
+  .submit-btn {
+    margin-top: 30px;
+  }
+
+
